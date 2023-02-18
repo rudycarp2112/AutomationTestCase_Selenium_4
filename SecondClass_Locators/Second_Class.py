@@ -13,7 +13,7 @@ webdriverChrome=webdriver.Chrome(options=options)
 webdriverChrome.get("https://demo.nopcommerce.com")
 webdriverChrome.maximize_window()
 
-## Unique Locators
+## Unique SecondClass_Locators
 # locators to find one element (more of time) - properties: ID, NAME, LINK_TEXT, PARTIAL_LINK_TEXT
 # webdriverChrome.find_element(By.ID, value="small-searchterms").send_keys("galaxy")
 # webdriverChrome.find_element(By.NAME, value="q").send_keys("galaxy")
@@ -27,7 +27,7 @@ webdriverChrome.maximize_window()
 # links = webdriverChrome.find_elements(By.TAG_NAME, value="a")
 # print(len(links)) # 90 total links
 
-## Customized Locators
+## Customized SecondClass_Locators
 
 # CSS_SELECTOR
 # XPATH
