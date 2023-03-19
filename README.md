@@ -3,8 +3,8 @@ Learning for a course from youtube how to write automation test case with [selen
 
 ## **A resume of every classes**
 
-There are only 15th classes. I saw the next concepts in each class:
-1. Identify web elements and perform some actions(send data and click)
+There are only **15th classes**. I saw the next concepts in each class:
+**1.** Identify web elements and perform some actions(send data and click)
 2. Type of locators avilable in web pages (class,id,LinkText,PartialLinkText,name,properties,className and customizablo locators)
 3. Xpath locators (AbsoluteXpath,RelativeXpath,functions and conditions into Xpath)
 4. Xpath Axes where we can reference an web element by text or structure of web page (parent,child,ancestor,descendant,following,following-sibling,preceding)
@@ -23,7 +23,7 @@ There are only 15th classes. I saw the next concepts in each class:
 ## **About programs used**
 
 * Pycharm
-* Excel (.xltx)
+* Excel/LibreOfficeCalc (.xltx)
 * MySql (WorkBench)
 
 ## **About libraries used**
