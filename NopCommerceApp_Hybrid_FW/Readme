@@ -1,0 +1,57 @@
+# FW is an organized way of maintain automation files. In the FW all the files will communicate each other to perform certain task.
+# Goal:
+# - Reusability
+# - Maintainability
+# types:
+# 1- Buil-in: pytest, robotFrameWork, unittest, etc
+# 2- Customized/user defined FW: DataDriven FW, Keyword FW, Hybrid driven FW
+#
+# Selenium Hybrid FW: Python, Selenium, PyTest, POM, HTML Reports.
+
+# Phases before implement a FW:
+# 1) analyze APP, technology & skill set of team, choose the TC but ¿How i choose the TC?
+# Suppose we have 100 TC's, we will have two types of TC for automatized:
+# - Re-TC (TDD)
+# - Re-gression TC -> Test functionality that may affected by a new feature o change
+# - TC that can be automatable
+# ¿What it is 100%? Is automatized that TC can be automatized or if we are in condition to automatized all TC, this is impossible because we need much effort to make.\
+#
+# I think the TC that i need automatize are wich whom cover important scope of an funcionality of system most used.
+
+# automate those test cases that cover the most important functions of each type of user of the system that are critical (main modules)
+# and leave aside the support functionalities (or at least dedicate few automatized TC). Regarding the main modules, I need to automate those scenarios that users use the most
+# to carry out their daily work. In this way, you would automate the test cases.
+
+# The FW works with Backend of the APP.
+
+# 2) Design and implementation the FW:
+# 3) Execution
+# 4) Maintain TC (version control system)
+
+-------------------- Install FW
+
+1) Install packages we required:
+1- Selenium: Selenium libraries (OK)
+2- Pytest: Python UnitTest FW (OK)
+3- pytest-html: PyTest HTML reports
+4- pytest-xdist: Run test Parallel
+5- Openpyxl: MS Excel Support (OK)
+6- Allure-pytest: To generate alluere reports
+
+2) Create a Folder Structure:
+a) pageObjects (package)
+b) testCases (package)
+c) utilities (package)
+d) Reports (folder)
+e) logs (folder)
+f) TestData (folder)
+g) Configurations (folder)
+h) Screenshots (folder)
+
+3) Automating Login TC:
+    Create LoginPage Object Class under "PageObjects"
+    Create LoginTest under "TestCases"
+    Create conftest.py under "TestCases"
+
+4) Capture screnshot of failures (up to here it was reached in the first class)
+    Update loginTestCase winth screenshot under "TestCase"
