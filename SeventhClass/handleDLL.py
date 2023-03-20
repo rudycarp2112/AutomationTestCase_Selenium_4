@@ -1,11 +1,11 @@
 import time
 from selenium import webdriver
-from selenium import Service
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium import Select #We need to import this for to select the options in DDL
+from selenium.webdriver.support.select import Select #We need to import this for to select the options in DDL
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome= webdriver.Chrome(service=servObj)
+driverChrome=webdriver.Chrome(service=servObj)
 driverChrome.implicitly_wait(10)
 
 driverChrome.get("https://itera-qa.azurewebsites.net/home/automation")

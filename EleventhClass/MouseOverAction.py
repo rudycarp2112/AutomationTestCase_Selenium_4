@@ -2,12 +2,12 @@
 import time
 
 from selenium import webdriver
-from selenium import Service
+from selenium.webdriver.edge.service import Service
 from selenium.webdriver.common.by import By
-from selenium import ActionChains
+from selenium.webdriver import ActionChains
 
 servObj=Service("C:\Pycharm2023\webdriver\msedgedriver")
-driverChrome= webdriver.Edge(service=servObj)
+driverChrome=webdriver.Edge(service=servObj)
 driverChrome.implicitly_wait(10)
 
 driverChrome.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")

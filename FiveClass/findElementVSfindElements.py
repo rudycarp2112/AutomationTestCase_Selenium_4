@@ -1,11 +1,11 @@
 import time
 
 from selenium import webdriver
-from selenium import Service
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome= webdriver.Chrome(service=servObj)
+driverChrome=webdriver.Chrome(service=servObj)
 
 driverChrome.get("https://demo.nopcommerce.com/login?returnUrl=%2F")
 driverChrome.maximize_window()

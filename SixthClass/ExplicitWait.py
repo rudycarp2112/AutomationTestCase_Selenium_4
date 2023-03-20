@@ -1,14 +1,17 @@
 # they search fix the synchronization between application web and the code of automatization TC
 # this ocurrs due to velocity aspects of the application web or network response instead of control de web Aaplication we can control automatization schemes
 
+import time
+
 from selenium import webdriver
-from selenium import Service
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium import WebDriverWait, expected_conditions as EC  # import this
-from selenium import NoSuchElementException, ElementNotVisibleException, ElementNotSelectableException # and this
+from selenium.webdriver.support.wait import WebDriverWait # import this
+from selenium.webdriver.support import expected_conditions as EC # and this
+from selenium.common import NoSuchElementException, ElementNotVisibleException, ElementNotSelectableException # and this
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome= webdriver.Chrome(service=servObj)
+driverChrome=webdriver.Chrome(service=servObj)
 # driverWaitExplicit=WebDriverWait(driverChrome,10) #basic sintax to declare explicit wait
 driverWaitExplicit=WebDriverWait(driverChrome,10,poll_frequency=2.5,ignored_exceptions=[NoSuchElementException, #poll_frecuency only specified for each certain time the script needs to call the statement newly
                                                                                     ElementNotVisibleException,

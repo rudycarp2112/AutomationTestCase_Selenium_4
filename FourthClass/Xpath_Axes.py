@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 # video: https://youtu.be/XL2pU5y3Kf8?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa&t=1865
 
 serv_obj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome= webdriver.Chrome(service=serv_obj)
+driverChrome=webdriver.Chrome(service=serv_obj)
 
 driverChrome.get("https://money.rediff.com/gainers")
 driverChrome.maximize_window()

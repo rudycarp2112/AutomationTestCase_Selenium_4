@@ -1,11 +1,14 @@
 # https://youtu.be/4DHefIyw6ik?list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa&t=1970
 
 from selenium import webdriver
-from selenium import Options
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.common.by import By
 
 options = Options()
 options_page_load_strategy= "normal"
-webdriverChrome= webdriver.Chrome(options=options)
+webdriverChrome=webdriver.Chrome(options=options)
 
 webdriverChrome.get("https://demo.nopcommerce.com")
 webdriverChrome.maximize_window()

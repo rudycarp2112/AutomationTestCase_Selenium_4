@@ -1,11 +1,12 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium import Select
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support.select import Select
 
 # If the web Element is not defined with select tag then create a list that saved of li tags  and go through it with a loop until detecting the element that you want to select
 def chrome_setup():
-    from selenium import Service
+    from selenium.webdriver.chrome.service import Service
     servObj = Service("C:\Pycharm2023\webdriver\chromedriver")
     driverChrome = webdriver.Chrome(service=servObj) #This way we pass where is the path that we want receive the download file
     driverChrome.implicitly_wait(10)

@@ -1,11 +1,11 @@
 import time
 
 from selenium import webdriver
-from selenium import Service
+from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome= webdriver.Chrome(service=servObj)
+driverChrome=webdriver.Chrome(service=servObj)
 
 driverChrome.get("https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiQ04TtmK79AhWuqJUCHUJHBSkQPAgI")
 driverChrome.maximize_window()

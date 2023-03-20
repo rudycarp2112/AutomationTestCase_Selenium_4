@@ -2,18 +2,19 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import os
-from selenium import Select
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.select import Select
 
 currentLocation=os.getcwd() #return the absolute path to the current location
 
 def chrome_setup():
-    from selenium import Service
+    from selenium.webdriver.chrome.service import Service
     servObj = Service("C:\Pycharm2023\webdriver\chromedriver")
     preferences={"download.default_directory":currentLocation,
                  "plugins.always_open_pdf_externally":True} # key:value this configuration its stored in dictionary of python
-    options= webdriver.ChromeOptions()
+    options=webdriver.ChromeOptions()
     options.add_experimental_option("prefs",preferences)
-    driverChrome = webdriver.Chrome(service=servObj, options=options) #This way we pass where is the path that we want receive the download file
+    driverChrome = webdriver.Chrome(service=servObj,options=options) #This way we pass where is the path that we want receive the download file
     driverChrome.implicitly_wait(10)
 
     return driverChrome
