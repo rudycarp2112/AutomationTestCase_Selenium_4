@@ -1,8 +1,5 @@
-import time
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
-import os
+
 
 #Advantage
 # - the script only execute in the backend whithout display the browser with ui elements
@@ -13,32 +10,32 @@ import os
 
 # The headless mode will be execute different for every browser
 def headless_chrome_setup():
-    from selenium.webdriver.chrome.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\chromedriver")
-    options=webdriver.ChromeOptions()
+    options= webdriver.ChromeOptions()
     options.add_argument("--headless")
-    driverChrome = webdriver.Chrome(service=servObj,options=options) #This way we pass where is the path that we want receive the download file
+    driverChrome = webdriver.Chrome(service=servObj, options=options) #This way we pass where is the path that we want receive the download file
     driverChrome.implicitly_wait(10)
 
     return driverChrome
 
 def headless_edge_setup():
-    from selenium.webdriver.edge.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\msedgedriver")
     options = webdriver.EdgeOptions()
     options.add_argument("--headless")
-    driverEdge = webdriver.Edge(service=servObj,options=options)
+    driverEdge = webdriver.Edge(service=servObj, options=options)
     driverEdge.implicitly_wait(10)
 
     return driverEdge
 
 def headless_firefox_setup():
-    from selenium.webdriver.firefox.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\geckodriver.exe")
     options = webdriver.FirefoxOptions()
     options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"  # necessary to locate firefox .exe
     options.add_argument("--headless")
-    driverFirefox = webdriver.Firefox(service=servObj,options=options)
+    driverFirefox = webdriver.Firefox(service=servObj, options=options)
     driverFirefox.implicitly_wait(10)
 
     return driverFirefox

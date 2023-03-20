@@ -1,8 +1,5 @@
-import time
 from selenium import webdriver
-from selenium.webdriver import Keys
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
+
 
 # when i launch my browser it remember some data. Ej: username or password for a specific web page. Browser can remember this information in form of cookies
 # this cookies are temporaly files which are created by the browser whenever browse some web site. some browser are restricted and others can create it.
@@ -10,7 +7,7 @@ from selenium.webdriver.support.select import Select
 # through selenium we can extract information of cookies once the browser is launched (name, expire date, etc). See if the cookies are created or not.
 # we can create our own cookie when you initalize the broser.
 def chrome_setup():
-    from selenium.webdriver.chrome.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\chromedriver")
     driverChrome = webdriver.Chrome(service=servObj)
     driverChrome.implicitly_wait(10)

@@ -1,8 +1,9 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
-import mysql.connector
+from selenium import Select
+import mysql
+
 
 # Once you have been installed MySQL DB, only there you should continue with this final class...
 # As automate tester we only use the next sentences on the database: DML and DRL (sub languages from SQL) in MySQL WorkBench (client GUI of MySQL Server)
@@ -12,7 +13,7 @@ import mysql.connector
 #1 Install this connector: mysql-connector-python (package)
 #2 DB operations: insert,update,detele,select
 def chrome_setup():
-    from selenium.webdriver.chrome.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\chromedriver")
     driverChrome = webdriver.Chrome(service=servObj) #This way we pass where is the path that we want receive the download file
     driverChrome.implicitly_wait(10)
@@ -27,7 +28,7 @@ driverC.maximize_window()
 time.sleep(5)
 driverC.find_element(By.ID,"wzrk-cancel").click()
 try:
-    con=mysql.connector.connect(host="localhost",port="3306",user="Rudy2",passwd="zinc23_._ARG",database="world")
+    con= mysql.connector.connect(host="localhost", port="3306", user="Rudy2", passwd="zinc23_._ARG", database="world")
     curs=con.cursor()
     curs.execute(querySelect) #we can execute other type of commands too
 

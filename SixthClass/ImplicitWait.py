@@ -1,14 +1,12 @@
 # they search fix the synchronization between application web and the code of automatization TC
 # this ocurrs due to velocity aspects of the application web or network response instead of control de web Aaplication we can control automatization schemes
 
-import time
-
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium import Service
 from selenium.webdriver.common.by import By
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome=webdriver.Chrome(service=servObj)
+driverChrome= webdriver.Chrome(service=servObj)
 driverChrome.implicitly_wait(10) #seconds. If the application webPage dosent respond within this time the we should report this as a performance bug to the team
 
 driverChrome.get("https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwiQ04TtmK79AhWuqJUCHUJHBSkQPAgI")

@@ -2,13 +2,12 @@
 # broken links are those that do not redirect anywhere, dont have any target page (as result are displayed error codes or error warning: 401 ex.)
 # external link are those that redirect a diferent web page
 # internal links are those that redirect to others parts of the webpage
-import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium import Service
 from selenium.webdriver.common.by import By
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome=webdriver.Chrome(service=servObj)
+driverChrome= webdriver.Chrome(service=servObj)
 driverChrome.implicitly_wait(10)
 
 driverChrome.get("https://demo.nopcommerce.com/login?returnUrl=%2F/home/automation")

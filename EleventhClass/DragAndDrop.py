@@ -1,12 +1,12 @@
 import time
 
 from selenium import webdriver
-from selenium.webdriver.edge.service import Service
+from selenium import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver import ActionChains
+from selenium import ActionChains
 
 servObj=Service("C:\Pycharm2023\webdriver\msedgedriver")
-driverChrome=webdriver.Edge(service=servObj)
+driverChrome= webdriver.Edge(service=servObj)
 driverChrome.implicitly_wait(10)
 
 driverChrome.get("http://www.dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html")

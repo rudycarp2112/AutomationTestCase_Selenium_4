@@ -1,12 +1,11 @@
 # This type of table usually is recepting changes from others users, for this reason is dynamically and not hardcode
-import time
 from selenium import webdriver
-from selenium.webdriver.edge.service import Service
+from selenium import Service
 # from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 
 servObj=Service("C:\Pycharm2023\webdriver\msedgedriver")
-driverChrome=webdriver.Edge(service=servObj)
+driverChrome= webdriver.Edge(service=servObj)
 driverChrome.implicitly_wait(20)
 
 driverChrome.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")

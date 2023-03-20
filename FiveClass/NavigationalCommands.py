@@ -1,11 +1,10 @@
 import time
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
+from selenium import Service
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome=webdriver.Chrome(service=servObj)
+driverChrome= webdriver.Chrome(service=servObj)
 
 driverChrome.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login")
 driverChrome.maximize_window()

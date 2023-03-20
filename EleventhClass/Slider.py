@@ -1,12 +1,12 @@
 import time
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver import ActionChains
+from selenium import ActionChains
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome=webdriver.Chrome(service=servObj)
+driverChrome= webdriver.Chrome(service=servObj)
 driverChrome.implicitly_wait(10)
 
 driverChrome.get("https://demos.jquerymobile.com/1.4.2/rangeslider/")

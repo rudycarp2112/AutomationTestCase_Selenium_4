@@ -1,13 +1,12 @@
 # Exercise 2: access a form and complete the input text use switch_to.frame(value index)
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.select import Select
+from selenium import Select
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome=webdriver.Chrome(service=servObj)
+driverChrome= webdriver.Chrome(service=servObj)
 driverChrome.implicitly_wait(10)
 
 driverChrome.get("https://testautomationpractice.blogspot.com")

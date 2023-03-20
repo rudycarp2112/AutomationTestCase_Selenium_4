@@ -1,10 +1,10 @@
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium import Service
 from selenium.webdriver.common.by import By
 
 service_obj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driver=webdriver.Chrome(service=service_obj)
+driver= webdriver.Chrome(service=service_obj)
 
 driver.get("https://www.facebook.com/?stype=lo&jlou=AferocbhzszZvg2vBBqOrtMADeS5i8TnGZ-vroGnpxQA7KGTqisku1isClsR38QzMmIDW_XHH6rBKBs4TnG5ApOQLM5FQHCaCkILoDyW8N-_wQ&smuh=37133&lh=Ac9NrOU87PHG1MvV1Oc")
 

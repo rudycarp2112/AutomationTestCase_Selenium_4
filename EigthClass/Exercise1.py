@@ -1,11 +1,11 @@
 # Exercise 1: open multiple windows and close all them
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
+from selenium import Service
 from selenium.webdriver.common.by import By
 
 servObj=Service("C:\Pycharm2023\webdriver\chromedriver")
-driverChrome=webdriver.Chrome(service=servObj)
+driverChrome= webdriver.Chrome(service=servObj)
 driverChrome.implicitly_wait(10)
 
 driverChrome.get("https://testautomationpractice.blogspot.com")

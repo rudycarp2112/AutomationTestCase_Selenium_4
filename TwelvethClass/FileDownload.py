@@ -1,37 +1,36 @@
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
 import os
 
 currentLocation=os.getcwd() #return the absolute path to the current location
 
 def chrome_setup():
-    from selenium.webdriver.chrome.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\chromedriver")
     preferences={"download.default_directory":currentLocation} # key:value this configuration its stored in dictionary of python
-    options=webdriver.ChromeOptions()
+    options= webdriver.ChromeOptions()
     options.add_experimental_option("prefs",preferences)
-    driverChrome = webdriver.Chrome(service=servObj,options=options) #This way we pass where is the path that we want receive the download file
+    driverChrome = webdriver.Chrome(service=servObj, options=options) #This way we pass where is the path that we want receive the download file
     driverChrome.implicitly_wait(10)
 
     return driverChrome
 
 def edge_setup():
-    from selenium.webdriver.edge.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\msedgedriver")
     # Download files in desired location
     preferences = {"download.default_directory": currentLocation,
                  "plugins.always_open_msword_externally":True}  # key:value this configuration its stored in dictionary of python
     options = webdriver.EdgeOptions()
     options.add_experimental_option("prefs", preferences)
-    driverEdge = webdriver.Edge(service=servObj,options=options)
+    driverEdge = webdriver.Edge(service=servObj, options=options)
     driverEdge.implicitly_wait(10)
 
     return driverEdge
 
 def firefox_setup():
-    from selenium.webdriver.firefox.service import Service
+    from selenium import Service
     servObj = Service("C:\Pycharm2023\webdriver\geckodriver.exe")
     # Configured the manner to download the file
     options = webdriver.FirefoxOptions()
@@ -41,7 +40,7 @@ def firefox_setup():
     # Download files in desired location
     options.set_preference("browser.download.folderList", 2) # 0: download into desktop, 1: download in the default location (downloads folder) and 2: download in the desire location
     options.set_preference("browser.download.dir", currentLocation)
-    driverFirefox = webdriver.Firefox(service=servObj,options=options)
+    driverFirefox = webdriver.Firefox(service=servObj, options=options)
     driverFirefox.implicitly_wait(10)
 
     return driverFirefox
