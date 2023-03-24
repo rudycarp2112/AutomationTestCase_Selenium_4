@@ -55,3 +55,37 @@ h) Screenshots (folder)
 
 4) Capture screnshot of failures (up to here it was reached in the first class)
     Update loginTestCase winth screenshot under "TestCase"
+
+5) Read common values from ini files (instead of have disperse all type of common variables as URL from TC we can create an trough ini file which we can call those variables) type of config file
+    This is not for Test Data.
+    1) Add "config.ini" file in configurations folder
+    2) Create "readProperties.py" utility file under utilities package to read common data
+    3) Replace hard coded values in Login Test Case. This manner we can a dynamic TC.
+
+ If the tomorrow we want code more TC, its recommend go to the config.ini file and add
+ all the variables we needed for each TC. And, of course, create a method who read those
+ values in the readProperties file.
+
+ 6) Adding logs to the TC
+    a) Add customerLogger.py under utilities package
+    b) Add logs to Login TC
+
+ 7) Run test cases of desired browser/Cross Browser /Parallel Browser
+    a) Update constest.py with required fixtures wich will accept command line argument (browser name)
+    b) Pass browser name as argument in command line (use "pytest_addoption" in conftest file)
+
+ To Run TC in desired browser: pytest -v -s NopCommerceApp_Hybrid_FW/testCases/test_login.py --browser chrome (Done)
+ To Run parallel TC: pytest -v -s -n=2 NopCommerceApp_Hybrid_FW/testCases/test_login.py --browser chrome (Done)
+
+  8) Generate pytest HTML Reports (pytest-html)
+    a) Update "Confest.py" with pytest hooks
+    b) To Generate html report run below command:
+        pytest -s -v -n=2 --html=Reports\report.html testCases/test_login.py --browser chrome
+
+    *** There is a problema because the lines of the log file arent adding to the HTML Report for each TC (see this case --> How to add detailes steps to HTML report PyTest)
+
+  9) Automating Data Driven TC (up to here it was reached in the second class)
+    a) Prepare test data in Excel Sheet, place the excel file inside the TestData folder
+    b) Create "ExcelUtils.py" utility class under utilities packages
+    c) Create loginDataDrivenTest under Test Case
+    d) Run the TC
