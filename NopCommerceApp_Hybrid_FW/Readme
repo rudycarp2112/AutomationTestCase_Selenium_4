@@ -89,3 +89,10 @@ h) Screenshots (folder)
     b) Create "ExcelUtils.py" utility class under utilities packages
     c) Create loginDataDrivenTest under Test Case
     d) Run the TC
+
+  10) Add new automatized TC (This is commonly what the companies assign you --> read documents --> understand FW --> programming TC)
+    a) Add a new customer
+    b) Search customer by email
+    c) Search customer by name
+
+   [At this point we have completed design and implementation of the FW]

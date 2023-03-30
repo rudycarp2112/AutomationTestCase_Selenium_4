@@ -2,7 +2,6 @@ from NopCommerceApp_Hybrid_FW.pageObjects.LoginPage import LoginPage
 from NopCommerceApp_Hybrid_FW.utilities.readProperties import ReadConfig #To access to config.ini file data
 from NopCommerceApp_Hybrid_FW.utilities.customLogger import LogGeneration
 
-# https://youtu.be/y2Kz3QaZcVo?list=PLUDwpEzHYYLt2RzOb-_eafLAP0VSoyJhf&t=2888
 class Test_001_Login:
     base_url=ReadConfig.getApplicationUrl()
     username=ReadConfig.getUserEmail()

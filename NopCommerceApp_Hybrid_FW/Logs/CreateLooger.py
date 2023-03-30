@@ -13,6 +13,8 @@ import logging
 #
 # print("Archivo creado")
 
+# Example to create a log file
+
 import logging
 
 logger = logging.getLogger()

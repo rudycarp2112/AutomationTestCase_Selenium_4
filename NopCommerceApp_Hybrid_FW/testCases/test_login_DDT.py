@@ -3,7 +3,6 @@ from NopCommerceApp_Hybrid_FW.utilities.readProperties import ReadConfig #To acc
 from NopCommerceApp_Hybrid_FW.utilities.customLogger import LogGeneration
 from NopCommerceApp_Hybrid_FW.utilities import XLUtils
 
-# https://youtu.be/y2Kz3QaZcVo?list=PLUDwpEzHYYLt2RzOb-_eafLAP0VSoyJhf&t=2888
 class Test_002_DDT_Login:
     base_url=ReadConfig.getApplicationUrl()
     pathLoginData="C:\\Users\\RudyX\\PycharmProjects\\TestingProyect_begin\\NopCommerceApp_Hybrid_FW\\TestData\\LoginData.xlsx"

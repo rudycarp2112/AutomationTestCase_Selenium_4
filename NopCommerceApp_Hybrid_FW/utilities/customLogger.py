@@ -15,3 +15,15 @@ class LogGeneration:
         logger.info("-----> Execution of TC")
         return logger
 
+    def msgInfoLogFile(self, comment):
+        self.info("************************ " + comment + " ************************")
+        return self
+
+    def msgErrorLogFile(self, comment):
+        self.error("************************ " + comment + " ************************")
+        return self
+
+    def msgWarningLogFile(self, comment):
+        self.warning("************************ " + comment + " ************************")
+        return self
+
