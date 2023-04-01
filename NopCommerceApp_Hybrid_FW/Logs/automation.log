@@ -1,0 +1,842 @@
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:09 AM: INFO: -----> Execution of TC
+03/30/2023 11:10:10 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:10 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:10 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:10 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:10 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:16 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:10:16 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:10:16 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:10:16 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:10:16 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:10:16 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:16 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:16 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:16 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:16 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:10:18 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:10:18 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:10:18 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:10:18 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:10:18 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:10:18 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:10:18 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:10:18 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:10:18 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:10:18 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:10:25 AM: INFO: ************ Saving Customer info ***********
+03/30/2023 11:10:25 AM: INFO: ************ Saving Customer info ***********
+03/30/2023 11:10:25 AM: INFO: ************ Saving Customer info ***********
+03/30/2023 11:10:25 AM: INFO: ************ Saving Customer info ***********
+03/30/2023 11:10:25 AM: INFO: ************ Saving Customer info ***********
+03/30/2023 11:10:25 AM: INFO: ************ Add Customer validation started ***********
+03/30/2023 11:10:25 AM: INFO: ************ Add Customer validation started ***********
+03/30/2023 11:10:25 AM: INFO: ************ Add Customer validation started ***********
+03/30/2023 11:10:25 AM: INFO: ************ Add Customer validation started ***********
+03/30/2023 11:10:25 AM: INFO: ************ Add Customer validation started ***********
+03/30/2023 11:10:25 AM: INFO: *************** Add customer test Passed ***************
+03/30/2023 11:10:25 AM: INFO: *************** Add customer test Passed ***************
+03/30/2023 11:10:25 AM: INFO: *************** Add customer test Passed ***************
+03/30/2023 11:10:25 AM: INFO: *************** Add customer test Passed ***************
+03/30/2023 11:10:25 AM: INFO: *************** Add customer test Passed ***************
+03/30/2023 11:10:25 AM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/30/2023 11:10:25 AM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/30/2023 11:10:25 AM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/30/2023 11:10:25 AM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/30/2023 11:10:25 AM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/30/2023 11:10:26 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:10:26 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:10:29 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:10:29 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:10:29 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:10:29 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:10:29 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:38 AM: INFO: -----> Execution of TC
+03/30/2023 11:55:39 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:39 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:39 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:39 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:39 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:45 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:55:45 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:55:45 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:55:45 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:55:45 AM: INFO: ************ Loggin Succesful ************
+03/30/2023 11:55:45 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:45 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:45 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:45 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:45 AM: INFO: ************ Test_003_AddCustomer ************
+03/30/2023 11:55:46 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:55:46 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:55:46 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:55:46 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:55:46 AM: INFO: ************ screen location 'Add customer' Succesful ************
+03/30/2023 11:55:46 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:55:46 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:55:46 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:55:46 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:55:46 AM: INFO: ************ Starting Add Customer ***********
+03/30/2023 11:56:00 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Test_001_Login ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:56:00 AM: INFO: **************************** Verifying Login Home Page ****************************
+03/30/2023 11:56:04 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:56:04 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:56:04 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:56:04 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/30/2023 11:56:04 AM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:52:27 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:01 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:01 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:01 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:02 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:03 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:03 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:03 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:03 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:03 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:09 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:09 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:36 PM: INFO: -----> Execution of TC
+03/31/2023 06:53:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:43 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 06:53:43 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 06:53:43 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 06:53:43 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 06:53:43 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 06:53:43 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:43 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:43 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:43 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:43 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 06:53:44 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 06:53:44 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 06:53:44 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 06:53:44 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 06:53:44 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 06:53:44 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 06:53:44 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 06:53:44 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 06:53:44 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 06:53:44 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 06:53:51 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 06:53:51 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 06:53:51 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 06:53:51 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 06:53:51 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 06:53:51 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 06:53:51 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 06:53:51 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 06:53:51 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 06:53:51 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 06:53:51 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 06:53:51 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 06:53:51 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 06:53:51 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 06:53:51 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 06:53:51 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 06:53:51 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 06:53:51 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 06:53:51 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 06:53:51 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 06:53:52 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:52 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 06:53:55 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 06:53:55 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 06:53:55 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 06:53:55 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 06:53:55 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:38 PM: INFO: -----> Execution of TC
+03/31/2023 07:23:39 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:39 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:39 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:39 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:39 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:45 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:23:45 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:23:45 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:23:45 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:23:45 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:23:45 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:45 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:45 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:45 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:45 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:23:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:23:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:23:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:23:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:23:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:23:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:23:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:23:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:23:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:23:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:23:49 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:23:49 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:23:52 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:23:52 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:23:52 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:23:52 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:23:52 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:24:04 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:04 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:04 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:04 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:04 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:09 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:24:09 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:24:09 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:24:09 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:24:09 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:24:09 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:09 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:09 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:09 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:09 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:24:11 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:24:11 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:24:11 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:24:11 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:24:11 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:24:11 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:24:11 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:24:11 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:24:11 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:24:11 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:24:18 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:24:18 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:24:18 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:24:18 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:24:18 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:24:18 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:24:18 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:24:18 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:24:18 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:24:18 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:24:18 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:24:18 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:24:18 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:24:18 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:24:18 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:24:18 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:24:18 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:24:18 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:24:18 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:24:18 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:24:19 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:24:19 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:24:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:24:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:24:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:24:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:24:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:39 PM: INFO: -----> Execution of TC
+03/31/2023 07:31:40 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:40 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:40 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:40 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:40 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:46 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:31:46 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:31:46 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:31:46 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:31:46 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:31:46 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:46 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:46 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:46 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:46 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:31:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:31:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:31:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:31:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:31:47 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:31:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:31:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:31:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:31:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:31:47 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:31:54 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:31:54 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:31:54 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:31:54 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:31:54 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:31:54 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:31:54 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:31:54 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:31:54 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:31:54 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:31:54 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:31:54 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:31:54 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:31:54 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:31:54 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:31:54 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:31:54 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:31:54 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:31:54 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:31:54 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:31:55 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:31:55 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:31:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:31:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:31:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:31:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:31:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:03 PM: INFO: -----> Execution of TC
+03/31/2023 07:32:08 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:08 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:08 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:08 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:08 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:13 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:32:13 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:32:13 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:32:13 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:32:13 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:32:13 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:13 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:13 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:13 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:13 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:32:18 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:32:18 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:32:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:32:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:32:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:32:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:32:21 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:22 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:22 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:22 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:22 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:22 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:26 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:26 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:26 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:26 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:26 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:26 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:26 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:26 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:26 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:26 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:27 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:33:27 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:33:27 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:33:27 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:33:27 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:33:27 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:33:27 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:33:27 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:33:27 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:33:27 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:33:34 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:33:34 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:33:34 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:33:34 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:33:34 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:33:34 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:33:34 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:33:34 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:33:34 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:33:34 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:33:34 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:33:34 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:33:34 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:33:34 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:33:34 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:33:34 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:33:34 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:33:34 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:33:34 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:33:34 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+03/31/2023 07:33:35 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:35 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:37 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:37 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:37 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:37 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:37 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:42 PM: INFO: -----> Execution of TC
+03/31/2023 07:33:47 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:47 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:47 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:47 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:47 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:51 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:51 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:51 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:51 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:51 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:33:51 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:51 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:51 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:51 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:51 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:33:56 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:56 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:33:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:33:59 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:26 PM: INFO: -----> Execution of TC
+03/31/2023 07:39:31 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:31 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:31 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:31 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:31 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:37 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:39:37 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:39:37 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:39:37 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:39:37 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:39:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:37 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:39:42 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Test_001_Login ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:39:42 PM: INFO: **************************** Verifying Login Home Page ****************************
+03/31/2023 07:39:46 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:39:46 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:39:46 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:39:46 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:39:46 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+03/31/2023 07:41:20 PM: INFO: -----> Execution of TC
+03/31/2023 07:41:24 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:41:28 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:41:28 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:43:16 PM: INFO: -----> Execution of TC
+03/31/2023 07:43:21 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:43:26 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:43:26 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:44:01 PM: INFO: -----> Execution of TC
+03/31/2023 07:44:02 PM: INFO: ************************ Test_005_searchCustomerByName ************************
+03/31/2023 07:44:03 PM: INFO: ************************ Login Page ************************
+03/31/2023 07:44:05 PM: INFO: ************************ Login Page Successful ************************
+03/31/2023 07:44:05 PM: INFO: ************************ Moving to Search Customer Screen ************************
+03/31/2023 07:44:06 PM: INFO: ************************ Into Search Customer Screen ************************
+03/31/2023 07:44:06 PM: INFO: ************************ Start Search ************************
+03/31/2023 07:44:06 PM: INFO: ************************ Search Finished ************************
+03/31/2023 07:44:06 PM: INFO: ************************ Verifying Search ************************
+03/31/2023 07:44:06 PM: INFO: ************************ Verifying Search: OK ************************
+03/31/2023 07:44:06 PM: INFO: ************************ TC_searchCustomerByCorrectName: Passed ************************
+03/31/2023 07:44:21 PM: INFO: -----> Execution of TC
+03/31/2023 07:44:22 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:44:25 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:44:25 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:44:36 PM: INFO: -----> Execution of TC
+03/31/2023 07:44:40 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:44:45 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:44:45 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:45:54 PM: INFO: -----> Execution of TC
+03/31/2023 07:45:58 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:46:03 PM: INFO: ************ Loggin Succesful ************
+03/31/2023 07:46:03 PM: INFO: ************ Test_003_AddCustomer ************
+03/31/2023 07:46:07 PM: INFO: ************ screen location 'Add customer' Succesful ************
+03/31/2023 07:46:07 PM: INFO: ************ Starting Add Customer ***********
+03/31/2023 07:46:15 PM: INFO: ************ Saving Customer info ***********
+03/31/2023 07:46:15 PM: INFO: ************ Add Customer validation started ***********
+03/31/2023 07:46:15 PM: INFO: *************** Add customer test Passed ***************
+03/31/2023 07:46:15 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:10 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:12 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:12 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:12 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:12 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:12 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:17 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:17 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:17 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:17 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:17 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:17 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:17 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:17 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:17 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:17 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:19 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:19 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:19 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:19 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:19 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:19 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:19 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:19 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:19 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:19 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:26 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:26 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:26 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:26 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:26 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:26 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:26 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:26 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:26 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:26 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:26 PM: INFO: *************** Add customer test Passed ***************
+04/01/2023 08:06:26 PM: INFO: *************** Add customer test Passed ***************
+04/01/2023 08:06:26 PM: INFO: *************** Add customer test Passed ***************
+04/01/2023 08:06:26 PM: INFO: *************** Add customer test Passed ***************
+04/01/2023 08:06:26 PM: INFO: *************** Add customer test Passed ***************
+04/01/2023 08:06:26 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+04/01/2023 08:06:26 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+04/01/2023 08:06:26 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+04/01/2023 08:06:26 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+04/01/2023 08:06:26 PM: INFO: *************** Ending Test_003_AddCustomer TC ***************
+04/01/2023 08:06:27 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:06:27 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:06:31 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:06:31 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:06:31 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:06:31 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:06:31 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:36 PM: INFO: -----> Execution of TC
+04/01/2023 08:06:41 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:41 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:41 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:41 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:41 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:46 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:46 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:46 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:46 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:46 PM: INFO: ************ Loggin Succesful ************
+04/01/2023 08:06:46 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:46 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:46 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:46 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:46 PM: INFO: ************ Test_003_AddCustomer ************
+04/01/2023 08:06:48 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:48 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:48 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:48 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:48 PM: INFO: ************ screen location 'Add customer' Succesful ************
+04/01/2023 08:06:48 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:48 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:48 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:48 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:48 PM: INFO: ************ Starting Add Customer ***********
+04/01/2023 08:06:55 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:55 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:55 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:55 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:55 PM: INFO: ************ Saving Customer info ***********
+04/01/2023 08:06:55 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:55 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:55 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:55 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:55 PM: INFO: ************ Add Customer validation started ***********
+04/01/2023 08:06:56 PM: INFO: *************** Add customer test Failed ***************
+04/01/2023 08:06:56 PM: INFO: *************** Add customer test Failed ***************
+04/01/2023 08:06:56 PM: INFO: *************** Add customer test Failed ***************
+04/01/2023 08:06:56 PM: INFO: *************** Add customer test Failed ***************
+04/01/2023 08:06:56 PM: INFO: *************** Add customer test Failed ***************
+04/01/2023 08:07:00 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Test_001_Login ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:07:00 PM: INFO: **************************** Verifying Login Home Page ****************************
+04/01/2023 08:07:03 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:07:03 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:07:03 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:07:03 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
+04/01/2023 08:07:03 PM: INFO: **************************** Verifying Login Home Page: Passed ****************************
