@@ -95,4 +95,92 @@ h) Screenshots (folder)
     b) Search customer by email
     c) Search customer by name
 
+    (up to here it was reached in the third class)
    [At this point we have completed design and implementation of the FW]
+
+    [Now we move on to the maintenance stage]
+
+  11) Grouping TC
+   a) Grouping markers (Add markers to every test method)
+        @pytest.mark.sanity
+        @pytest.mark.regression
+   b) Add marker entries in pytest.ini file
+        pytest.ini
+        ------
+        [pytest]
+        markers =
+            sanity
+            regression
+   c) select groups at run time
+        pytest -s -v -m "sanity" --html=Reports/report.html testCases/ --browser chrome
+        pytest -s -v -m "sanity and regression" --html=Reports/report.html testCases/ --browser chrome
+        pytest -s -v -m "sanity or regression" --html=Reports/report.html testCases/ --browser chrome
+
+     Instead of write this command every time we can create an executable file (.bat file)
+
+    ATTENTION:before try the next step its important to install python, pip, and all libraries used in each TC (selenium, openpyxl, pytest and pytest-html throw PIP command).
+    First, verify throw cmd that all of this libraries are installed via CMD (For that: click on CTRL+R and search "CMD".)
+    .Example sentences: "python -V" and "pip list". If one of this commands launch an error similarly to this:
+    '"python" not recognized as a internal or external command' then:
+    First step: go to windows configurations and open the window about environment variables for both users variables and system variables.
+    Then add to each variable named "PATH" the dir location of python.exe that you installed and the directory location path named "scripts" where its found all pip .exe
+
+    Second step: you need verify if all this libraries are install in the pyhton version that you installed. example sentences: "python -V", "pip list". Is these appears then good for you.
+    On the contrary, go intall it one for one with pip commands. example: "pip install openpyxl"
+
+    Second, try the next step now.
+
+   12) Run TC in command prompt and run.bat file
+       a) Create run.bat file
+       b) Open prompt as administrator and then run "run.bat" file
+
+    Jenkins: is a Continous Integration tool
+    Git: is a tool
+    GitHub: is the service to use Git (cloud environment)
+
+    ---------------- This is the job is perform every day when we need develop a new version of SW--------------
+    Local PC: we have GIT and Our CODE
+                                         |
+                                         \/
+    Remote/Global: we have a REPOSITORY with Our CODE (automation TC) this is possible with GITHUB.
+                                        ^
+                                        |
+    Jenkins: Will get the code from GITHUB repository and run some TC.
+    ---------------- This is the job is perform every day when we need develop a new version of SW--------------
+
+    13) Push the code to Git and GitHub Repository
+       First Round)
+        Initial Steps (only one time)
+        1) git ini --> Create an Local Empty git repository (Local repository) path of proyect: C:\Users\RudyX\PycharmProjects\TestingProyect_begin\NopCommerceApp_Hybrid_FW
+                a) Open Git command prompt in that location
+                b) git ini
+                c) connect to the repository in github. Extract the URL from repository.
+                d) git remote add origin "[URL repository]"
+        2) git remote add origin "[URL]"  ------> connect my local git repository with GitHub
+
+        Before doing commit first time we need to execute this belows commnads:
+            git config --global user.name "[Username GitHub account]"
+            git config --global user.email "[email GitHub account]"
+
+         # Perform COMMIT in git repo
+        3) git status --> show all the folder uncommited (red color)
+        4) git add -A --> add all the files in to stagin/indexing area (before to perfom commit)
+        5) git status --> show all the folder uncommited in staging area (green color)
+        6) git commit -m "first commit"
+        7) git status --> show nothing for commit
+        8) git push -u origin master --> push the code from git
+
+       Second Round)
+        git status
+        git add -A --> add all the files to staging/indexing area
+        git commit -m "comment"
+        git push -u origin master
+
+        git pull ---> pull all the files from github to local (up to here
+
+       [Finish the maintain of automation TC] (up to here it was reached in the fourth class)
+
+       14) Run Test using jenkins (throw GitHub URL)
+
+
+

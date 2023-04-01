@@ -49,6 +49,7 @@ class AddCustomer():
         # self.deleteBtn_selectCustomerRole = self.driver.find_element(By.XPATH,self.deleteBtn_selectCustomerRole_xpath)
 
     def clickOnCustomerMenu(self):
+        time.sleep(1) #Necesary to pass test in firefox
         self.btn_customersMenu = self.driver.find_element(By.LINK_TEXT, self.btn_customersMenu_lknText)
         self.btn_customersMenu.click()
 

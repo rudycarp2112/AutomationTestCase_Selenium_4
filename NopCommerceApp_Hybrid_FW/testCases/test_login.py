@@ -1,3 +1,5 @@
+import pytest
+
 from NopCommerceApp_Hybrid_FW.pageObjects.LoginPage import LoginPage
 from NopCommerceApp_Hybrid_FW.utilities.readProperties import ReadConfig #To access to config.ini file data
 from NopCommerceApp_Hybrid_FW.utilities.customLogger import LogGeneration
@@ -9,6 +11,7 @@ class Test_001_Login:
 
     logger=LogGeneration.Loggen()
 
+    @pytest.mark.regression
     def test_homePageTittle(self, setup):
         self.logger.info("**************************** Test_001_Login ****************************")
         self.logger.info("**************************** Verifying Home Page Title ****************************")
@@ -25,6 +28,9 @@ class Test_001_Login:
             self.driver.close()
             self.logger.error("**************************** Verifying Home Page Title: Failed ****************************")
             assert False
+
+    @pytest.mark.sanity
+    @pytest.mark.regression
     def test_login(self, setup):
         self.logger.info("**************************** Test_001_Login ****************************")
         self.logger.info("**************************** Verifying Login Home Page ****************************")

@@ -2,6 +2,7 @@ import random
 import string
 import time
 
+import pytest
 from selenium.webdriver.common.by import By
 from NopCommerceApp_Hybrid_FW.utilities.readProperties import ReadConfig
 from NopCommerceApp_Hybrid_FW.utilities.customLogger import LogGeneration
@@ -17,6 +18,7 @@ class Test_003_AddCustomer:
     userpwd = ReadConfig.getUserPassword()
     logger = LogGeneration.Loggen()
 
+    @pytest.mark.sanity
     def test_addCustomer(self,setup):
         self.logger.info("************ Test_003_AddCustomer ************")
         self.driver = setup

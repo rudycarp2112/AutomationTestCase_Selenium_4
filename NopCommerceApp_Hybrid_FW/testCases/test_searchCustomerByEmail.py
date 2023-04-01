@@ -1,5 +1,7 @@
 import time
 
+import pytest
+
 from NopCommerceApp_Hybrid_FW.pageObjects.LoginPage import LoginPage
 from NopCommerceApp_Hybrid_FW.pageObjects.AddCustomerPage import AddCustomer
 from NopCommerceApp_Hybrid_FW.pageObjects.SearchCustomerPage import SearchCustomer
@@ -13,6 +15,7 @@ class Test_004_searchCustomerByEmail:
     logger = LogGeneration.Loggen()
     emailToValidate = "brenda_lindgren@nopCommerce.com"
 
+    @pytest.mark.regression
     def test_searchCustomerByCorrectEmail(self, setup):
         LogGeneration.msgInfoLogFile(self.logger, "Test_004_searchCustomerByEmail")
         self.driver = setup

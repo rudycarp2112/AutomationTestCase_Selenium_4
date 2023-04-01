@@ -1,3 +1,5 @@
+import pytest
+
 from NopCommerceApp_Hybrid_FW.pageObjects.LoginPage import LoginPage
 from NopCommerceApp_Hybrid_FW.utilities.readProperties import ReadConfig #To access to config.ini file data
 from NopCommerceApp_Hybrid_FW.utilities.customLogger import LogGeneration
@@ -10,6 +12,7 @@ class Test_002_DDT_Login:
     numRow = XLUtils.getRowCount(pathLoginData, "Sheet1")
     numCols= XLUtils.getColumnCount(pathLoginData, "Sheet1")
 
+    @pytest.mark.regression
     def test_login_ddt(self, setup):
         self.logger.info("**************************** Test_002_DDT_Login ****************************")
         self.logger.info("**************************** Verifying Login DDT Home Page ****************************")

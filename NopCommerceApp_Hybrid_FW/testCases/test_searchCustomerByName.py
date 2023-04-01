@@ -1,5 +1,7 @@
 import time
 
+import pytest
+
 from NopCommerceApp_Hybrid_FW.pageObjects.LoginPage import LoginPage
 from NopCommerceApp_Hybrid_FW.pageObjects.AddCustomerPage import AddCustomer
 from NopCommerceApp_Hybrid_FW.pageObjects.SearchCustomerPage import SearchCustomer
@@ -13,6 +15,7 @@ class Test_005_searchCustomerByName:
     logger = LogGeneration.Loggen()
     nameToSearch = "Victoria"
 
+    @pytest.mark.regression
     def test_searchCustomerByCorrectName(self, setup):
         LogGeneration.msgInfoLogFile(self.logger, "Test_005_searchCustomerByName")
         self.driver = setup
