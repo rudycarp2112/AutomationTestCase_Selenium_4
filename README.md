@@ -1,4 +1,4 @@
-# Name of Repository: AutomationTestCase_Selenium_4
+# Repository Name: AutomationTestCase_Selenium_4
 Learning for a course from youtube how to write automation test case with [selenium 4](https://www.youtube.com/watch?v=2DD-ynCIZ4w&list=PLUDwpEzHYYLsuUBvuoYTlN0KsBB5t-BDa) from Youtube. Where i see the syntax and concepts of web elements mainly.
 
 ## **A resume of every classes**
