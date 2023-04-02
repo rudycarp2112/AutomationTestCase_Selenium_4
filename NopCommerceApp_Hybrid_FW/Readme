@@ -95,8 +95,7 @@ h) Screenshots (folder)
     b) Search customer by email
     c) Search customer by name
 
-    (up to here it was reached in the third class)
-   [At this point we have completed design and implementation of the FW]
+   [At this point we have completed design and implementation of the FW] (up to here it was reached in the third class)
 
     [Now we move on to the maintenance stage]
 
@@ -181,6 +180,18 @@ h) Screenshots (folder)
        [Finish the maintain of automation TC] (up to here it was reached in the fourth class)
 
        14) Run Test using jenkins (throw GitHub URL)
+        Name of item jenkins: nopcommerce_github_seleniumPython
+        Give the git.exe path to the devops team so they can configure Jenkins. example: "C:\Program Files\Git\bin\git.exe"
 
+        Configuration of build in jenkins:
+        GitHub Repository: https://github.com/rudycarp2112/AutomationTestCase_Selenium_4.git/
+        Branch Name: */main
+        Commands or steps i write to execute in "windows batch environment":
+         - cd NopCommerceApp_Hybrid_FW
+         - run.bat
+
+        [Up to here the final fifth class] (Where i saw how to run the automatized TC with jenkins)
+
+        List of videos: https://www.youtube.com/playlist?list=PLUDwpEzHYYLt2RzOb-_eafLAP0VSoyJhf
 
 
