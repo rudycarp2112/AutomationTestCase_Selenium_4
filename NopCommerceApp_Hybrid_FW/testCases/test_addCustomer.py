@@ -35,11 +35,13 @@ class Test_003_AddCustomer:
         self.ac = AddCustomer(self.driver)
         self.ac.clickOnCustomerMenu()
         self.ac.clickOnOptionCustomer()
+        time.sleep(1) # neccesary to pass this TC in Firefox browser
         self.ac.clickOnAddCustomer()
 
         self.logger.info("************ screen location 'Add customer' Succesful ************")
         self.logger.info("************ Starting Add Customer ***********")
 
+        time.sleep(2) # neccesary to pass this TC in Firefox browser
         self.email = random_generator_char() + "@gmail.com"
         self.ac.setEmail(self.email)
         self.ac.setPassword("test123")

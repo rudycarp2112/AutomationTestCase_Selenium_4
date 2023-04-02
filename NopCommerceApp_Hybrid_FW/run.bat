@@ -1,5 +1,3 @@
-REM chrome
-
 pytest -s -v -m "sanity" --html=Reports/reportChrome.html ./testCases/ --browser chrome
 pytest -s -v -m "sanity" --html=Reports/reportFirefox.html ./testCases/ --browser firefox
 
