@@ -12,13 +12,13 @@
 # 1) analyze APP, technology & skill set of team, choose the TC but ¿How i choose the TC?
 # Suppose we have 100 TC's, we will have two types of TC for automatized:
 # - Re-TC (TDD)
-# - Re-gression TC -> Test functionality that may affected by a new feature o change
-# - TC that can be automatable
-# ¿What it is 100%? Is automatized that TC can be automatized or if we are in condition to automatized all TC, this is impossible because we need much effort to make.\
+# - Re-gression TC -> Test functionality that may be affected by a new feature o change
+# - TC that can be automatizable
+# ¿What it is 100%? Is automatized that TC can be automatized or if we are in condition to automatized all TC, this is impossible because we need much effort to make it.
 #
-# I think the TC that i need automatize are wich whom cover important scope of an funcionality of system most used.
+# [Personal Thought] I think the TC that i need automatize are wich whom cover important scope of an funcionality of system most used.
 
-# automate those test cases that cover the most important functions of each type of user of the system that are critical (main modules)
+# Automate those test cases that cover the most important functions of each type of user of the system that are critical (main modules)
 # and leave aside the support functionalities (or at least dedicate few automatized TC). Regarding the main modules, I need to automate those scenarios that users use the most
 # to carry out their daily work. In this way, you would automate the test cases.
 
@@ -31,75 +31,79 @@
 -------------------- Install FW
 
 1) Install packages we required:
-1- Selenium: Selenium libraries (OK)
-2- Pytest: Python UnitTest FW (OK)
-3- pytest-html: PyTest HTML reports
-4- pytest-xdist: Run test Parallel
-5- Openpyxl: MS Excel Support (OK)
-6- Allure-pytest: To generate alluere reports
+    a) Selenium: Selenium libraries (OK)
+    b) Pytest: Python UnitTest FW (OK)
+    c) pytest-html: PyTest HTML reports
+    d) pytest-xdist: Run test Parallel
+    e) Openpyxl: MS Excel Support (OK)
+    f) Allure-pytest: To generate alluere reports
 
 2) Create a Folder Structure:
-a) pageObjects (package)
-b) testCases (package)
-c) utilities (package)
-d) Reports (folder)
-e) logs (folder)
-f) TestData (folder)
-g) Configurations (folder)
-h) Screenshots (folder)
+    a) pageObjects (package)
+    b) testCases (package)
+    c) utilities (package)
+    d) Reports (folder)
+    e) logs (folder)
+    f) TestData (folder)
+    g) Configurations (folder)
+    h) Screenshots (folder)
 
 3) Automating Login TC:
-    Create LoginPage Object Class under "PageObjects"
-    Create LoginTest under "TestCases"
-    Create conftest.py under "TestCases"
+    a) Create LoginPage Object Class under "PageObjects"
+    b) Create LoginTest under "TestCases"
+    c) Create conftest.py under "TestCases"
 
-4) Capture screnshot of failures (up to here it was reached in the first class)
-    Update loginTestCase winth screenshot under "TestCase"
+4) Capture screnshot of failures
+    a) Update loginTestCase winth screenshot under "TestCase"
 
-5) Read common values from ini files (instead of have disperse all type of common variables as URL from TC we can create an trough ini file which we can call those variables) type of config file
+    ---> (up to here it was reached in the first class)
+
+5) Read common values from ini files (instead of have disperse all type of common variables as URL from TC we can create an ini file which we can call those variables) type of config file
     This is not for Test Data.
-    1) Add "config.ini" file in configurations folder
-    2) Create "readProperties.py" utility file under utilities package to read common data
-    3) Replace hard coded values in Login Test Case. This manner we can a dynamic TC.
+    a) Add "config.ini" file in configurations folder
+    b) Create "readProperties.py" utility file under utilities package to read common data
+    c) Replace hard coded values in Login Test Case. This manner we can a dynamic TC.
 
- If the tomorrow we want code more TC, its recommend go to the config.ini file and add
- all the variables we needed for each TC. And, of course, create a method who read those
- values in the readProperties file.
+     If tomorrow day we want code more TC, its recommend go to the config.ini file and add
+     all the variables we needed for each TC. And, of course, create a method who read those
+     values in the readProperties file.
 
- 6) Adding logs to the TC
+6) Adding logs to the TC
     a) Add customerLogger.py under utilities package
     b) Add logs to Login TC
 
- 7) Run test cases of desired browser/Cross Browser /Parallel Browser
+    [Execution stage]
+7) Run test cases of desired browser/Cross Browser /Parallel Browser
     a) Update constest.py with required fixtures wich will accept command line argument (browser name)
     b) Pass browser name as argument in command line (use "pytest_addoption" in conftest file)
 
- To Run TC in desired browser: pytest -v -s NopCommerceApp_Hybrid_FW/testCases/test_login.py --browser chrome (Done)
- To Run parallel TC: pytest -v -s -n=2 NopCommerceApp_Hybrid_FW/testCases/test_login.py --browser chrome (Done)
+     To Run TC in desired browser: pytest -v NopCommerceApp_Hybrid_FW/testCases/test_login.py --browser chrome (Done)
+     To Run parallel TC: pytest -v -n=2 NopCommerceApp_Hybrid_FW/testCases/test_login.py --browser chrome (Done)
 
-  8) Generate pytest HTML Reports (pytest-html)
+8) Generate pytest HTML Reports (pytest-html)
     a) Update "Confest.py" with pytest hooks
     b) To Generate html report run below command:
-        pytest -s -v -n=2 --html=Reports\report.html testCases/test_login.py --browser chrome
+        pytest -v -n=2 --html=Reports\report.html testCases/test_login.py --browser chrome (we dont use "-s" option in pytest because is deprecated and cause some problems in report file)
 
-    *** There is a problema because the lines of the log file arent adding to the HTML Report for each TC (see this case --> How to add detailes steps to HTML report PyTest)
-
-  9) Automating Data Driven TC (up to here it was reached in the second class)
+9) Automating Data Driven TC
     a) Prepare test data in Excel Sheet, place the excel file inside the TestData folder
     b) Create "ExcelUtils.py" utility class under utilities packages
     c) Create loginDataDrivenTest under Test Case
     d) Run the TC
 
-  10) Add new automatized TC (This is commonly what the companies assign you --> read documents --> understand FW --> programming TC)
+    ---> (up to here it was reached in the second class)
+
+10) Add new automatized TC (This is commonly what the companies assign you --> read documents --> understand FW --> programming TC)
     a) Add a new customer
     b) Search customer by email
     c) Search customer by name
 
-   [At this point we have completed design and implementation of the FW] (up to here it was reached in the third class)
+   [At this point we have completed design and implementation of the FW]
+   ---> (up to here it was reached in the third class)
 
     [Now we move on to the maintenance stage]
 
-  11) Grouping TC
+11) Grouping TC
    a) Grouping markers (Add markers to every test method)
         @pytest.mark.sanity
         @pytest.mark.regression
@@ -111,29 +115,29 @@ h) Screenshots (folder)
             sanity
             regression
    c) select groups at run time
-        pytest -s -v -m "sanity" --html=Reports/report.html testCases/ --browser chrome
-        pytest -s -v -m "sanity and regression" --html=Reports/report.html testCases/ --browser chrome
-        pytest -s -v -m "sanity or regression" --html=Reports/report.html testCases/ --browser chrome
+        pytest -v -m "sanity" --html=Reports/report.html testCases/ --browser chrome
+        pytest -v -m "sanity and regression" --html=Reports/report.html testCases/ --browser chrome
+        pytest -v -m "sanity or regression" --html=Reports/report.html testCases/ --browser chrome
 
-     Instead of write this command every time we can create an executable file (.bat file)
+    Instead of write this command every time we can create an executable file (.bat file)
 
     ATTENTION:before try the next step its important to install python, pip, and all libraries used in each TC (selenium, openpyxl, pytest and pytest-html throw PIP command).
-    First, verify throw cmd that all of this libraries are installed via CMD (For that: click on CTRL+R and search "CMD".)
+    First, verify throw CMD that all of this libraries are installed (For that: click on CTRL+R and search "CMD".)
     .Example sentences: "python -V" and "pip list". If one of this commands launch an error similarly to this:
     '"python" not recognized as a internal or external command' then:
-    First step: go to windows configurations and open the window about environment variables for both users variables and system variables.
+        step 1: go to windows configurations and open the window about environment variables for both users variables and system variables.
     Then add to each variable named "PATH" the dir location of python.exe that you installed and the directory location path named "scripts" where its found all pip .exe
 
-    Second step: you need verify if all this libraries are install in the pyhton version that you installed. example sentences: "python -V", "pip list". Is these appears then good for you.
-    On the contrary, go intall it one for one with pip commands. example: "pip install openpyxl"
+        step 2: you need verify if all this libraries are install in the pyhton version that you installed. example sentences: "python -V", "pip list". Is these appears then good for you.
+    On the contrary, go to install it one for one with pip commands. example: "pip install openpyxl"
 
     Second, try the next step now.
 
-   12) Run TC in command prompt and run.bat file
-       a) Create run.bat file
-       b) Open prompt as administrator and then run "run.bat" file
+12) Run TC in command prompt and run.bat file
+   a) Create run.bat file
+   b) Open prompt as administrator and then run "run.bat" file
 
-    Jenkins: is a Continous Integration tool
+    Jenkins: is a Continuous Integration tool
     Git: is a tool
     GitHub: is the service to use Git (cloud environment)
 
@@ -147,51 +151,51 @@ h) Screenshots (folder)
     Jenkins: Will get the code from GITHUB repository and run some TC.
     ---------------- This is the job is perform every day when we need develop a new version of SW--------------
 
-    13) Push the code to Git and GitHub Repository
-       First Round)
-        Initial Steps (only one time)
-        1) git ini --> Create an Local Empty git repository (Local repository) path of proyect: C:\Users\RudyX\PycharmProjects\TestingProyect_begin\NopCommerceApp_Hybrid_FW
-                a) Open Git command prompt in that location
-                b) git ini
-                c) connect to the repository in github. Extract the URL from repository.
-                d) git remote add origin "[URL repository]"
-        2) git remote add origin "[URL]"  ------> connect my local git repository with GitHub
+13) Push the code to Git and GitHub Repository
+   First Round)
+    Initial Steps (only one time)
+    1) git ini --> Create an Local Empty git repository (Local repository) path of proyect: C:\Users\RudyX\PycharmProjects\TestingProyect_begin\NopCommerceApp_Hybrid_FW
+            a) Open Git command prompt in that location
+            b) git ini
+            c) connect to the repository in github. Extract the URL from repository.
+            d) git remote add origin "[URL repository]"
+    2) git remote add origin "[URL]"  ------> connect my local git repository with GitHub
 
-        Before doing commit first time we need to execute this belows commnads:
-            git config --global user.name "[Username GitHub account]"
-            git config --global user.email "[email GitHub account]"
+    Before doing commit first time we need to execute this belows commnads:
+        git config --global user.name "[Username GitHub account]"
+        git config --global user.email "[email GitHub account]"
 
-         # Perform COMMIT in git repo
-        3) git status --> show all the folder uncommited (red color)
-        4) git add -A --> add all the files in to stagin/indexing area (before to perfom commit)
-        5) git status --> show all the folder uncommited in staging area (green color)
-        6) git commit -m "first commit"
-        7) git status --> show nothing for commit
-        8) git push -u origin master --> push the code from git
+     # Perform COMMIT in git repo
+    3) git status --> show all the folder uncommited (red color)
+    4) git add -A --> add all the files in to stagin/indexing area (before to perfom commit)
+    5) git status --> show all the folder uncommited in staging area (green color)
+    6) git commit -m "first commit"
+    7) git status --> show nothing for commit
+    8) git push -u origin master --> push the code from git
 
-       Second Round)
-        git status
-        git add -A --> add all the files to staging/indexing area
-        git commit -m "comment"
-        git push -u origin master
+   Second Round)
+    git status
+    git add -A --> add all the files to staging/indexing area
+    git commit -m "comment"
+    git push -u origin master
 
-        git pull ---> pull all the files from github to local (up to here
+    git pull ---> pull all the files from github to local (up to here
 
-       [Finish the maintain of automation TC] (up to here it was reached in the fourth class)
+   [Finish the maintain of automation TC] (up to here it was reached in the fourth class)
 
-       14) Run Test using jenkins (throw GitHub URL)
-        Name of item jenkins: nopcommerce_github_seleniumPython
-        Give the git.exe path to the devops team so they can configure Jenkins. example: "C:\Program Files\Git\bin\git.exe"
+   14) Run Test using jenkins (throw GitHub URL)
+    Name of item jenkins: nopcommerce_github_seleniumPython
+    Give the git.exe path to the devops team so they can configure Jenkins. example: "C:\Program Files\Git\bin\git.exe"
 
-        Configuration of build in jenkins:
-        GitHub Repository: https://github.com/rudycarp2112/AutomationTestCase_Selenium_4.git/
-        Branch Name: */main
-        Commands or steps i write to execute in "windows batch environment":
-         - cd NopCommerceApp_Hybrid_FW
-         - run.bat
+    Configuration of build in jenkins:
+    GitHub Repository: https://github.com/rudycarp2112/AutomationTestCase_Selenium_4.git/
+    Branch Name: */main
+    Commands or steps i write to execute in "windows batch environment":
+     - cd NopCommerceApp_Hybrid_FW
+     - run.bat
 
-        [Up to here the final fifth class] (Where i saw how to run the automatized TC with jenkins)
+    [Up to here the final fifth class] (Where i saw how to run the automatized TC with jenkins)
 
-        List of videos: https://www.youtube.com/playlist?list=PLUDwpEzHYYLt2RzOb-_eafLAP0VSoyJhf
+    List of videos: https://www.youtube.com/playlist?list=PLUDwpEzHYYLt2RzOb-_eafLAP0VSoyJhf
 
 

@@ -13,27 +13,27 @@ class Test_001_Login:
 
     @pytest.mark.regression
     def test_homePageTittle(self, setup):
-        self.logger.info("**************************** Test_001_Login ****************************")
-        self.logger.info("**************************** Verifying Home Page Title ****************************")
-        self.driver=setup
+        self.driver = setup
+        LogGeneration.msgInfoLogFile(self.logger, "Test_001_Login")
+        LogGeneration.msgInfoLogFile(self.logger, "Verifying Home Page Title")
         self.driver.get(self.base_url)
         self.act_tittle=self.driver.title
 
         if self.act_tittle=="Your store. Login":
             self.driver.close()
-            self.logger.info("**************************** Verifying Home Page Title: Passed ****************************")
+            LogGeneration.msgInfoLogFile(self.logger, "Verifying Home Page Title: Passed")
             assert True
         else:
             self.driver.save_screenshot("C:\\Users\\RudyX\\PycharmProjects\\TestingProyect_begin\\NopCommerceApp_Hybrid_FW\\Screenshots\\"+"test_homePageTittle.png")
             self.driver.close()
-            self.logger.error("**************************** Verifying Home Page Title: Failed ****************************")
+            LogGeneration.msgInfoLogFile(self.logger, "Verifying Home Page Title: Failed")
             assert False
 
     @pytest.mark.sanity
     @pytest.mark.regression
     def test_login(self, setup):
-        self.logger.info("**************************** Test_001_Login ****************************")
-        self.logger.info("**************************** Verifying Login Home Page ****************************")
+        LogGeneration.msgInfoLogFile(self.logger, "Test_001_Login")
+        LogGeneration.msgInfoLogFile(self.logger, "Verifying Login Home Page")
         self.driver=setup
         self.driver.get(self.base_url)
         self.loginP= LoginPage(self.driver)
@@ -44,12 +44,12 @@ class Test_001_Login:
 
         if act_tittle=="Dashboard / nopCommerce administration":
             self.driver.close()
-            self.logger.info("**************************** Verifying Login Home Page: Passed ****************************")
+            LogGeneration.msgInfoLogFile(self.logger, "Verifying Login Home Page: Passed")
             assert True
         else:
             self.driver.save_screenshot("C:\\Users\\RudyX\\PycharmProjects\\TestingProyect_begin\\NopCommerceApp_Hybrid_FW\\Screenshots\\"+"test_login.png")
             self.driver.close()
-            self.logger.error("**************************** Verifying Login Home Page: Failed ****************************")
+            LogGeneration.msgErrorLogFile(self.logger, "Verifying Login Home Page: Failed")
             assert False
 
 
