@@ -18,6 +18,6 @@ This a compress resume. Each step realize explain in details in the list of vide
 
 ## **Final Thoughts**
 
-Its a very informative course when i understand how implement and maintaince a proyect and design the TC and DDT TC with POM.
+It was a very informative course when i understand how implement and maintaince a proyect and design the TC and DDT TC with POM.
 
 Undoubtedly, the importance of automating test cases to not only avoid repetitiveness but also to rapidly deploy an application is even clearer to me.
