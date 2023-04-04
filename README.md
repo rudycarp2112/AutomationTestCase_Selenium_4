@@ -3,11 +3,11 @@ Learning for a course from youtube how to write automation test case with [selen
 
 ## Pages to test
 
-[NopCommerceApp](https://demo.nopcommerce.com)
-[DummyTicket](https://www.dummyticket.com/dummy-ticket-for-visa-application/)
-[TestAutomationPractice](https://testautomationpractice.blogspot.com)
-[OrangeHRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
-[Automation Demo Site](https://demo.automationtesting.in/Register.html)
+[NopCommerceApp](https://demo.nopcommerce.com) |
+[DummyTicket](https://www.dummyticket.com/dummy-ticket-for-visa-application/) |
+[TestAutomationPractice](https://testautomationpractice.blogspot.com) |
+[OrangeHRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login) |
+[Automation Demo Site](https://demo.automationtesting.in/Register.html) |
 
 ## **A resume of every classes**
 
