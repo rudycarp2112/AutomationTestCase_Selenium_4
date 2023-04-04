@@ -14,8 +14,8 @@ class Test_002_DDT_Login:
 
     @pytest.mark.regression
     def test_login_ddt(self, setup):
-        self.logger.info("**************************** Test_002_DDT_Login ****************************")
-        self.logger.info("**************************** Verifying Login DDT Home Page ****************************")
+        LogGeneration.msgInfoLogFile(self.logger, "Test_002_DDT_Login")
+        LogGeneration.msgInfoLogFile(self.logger, "Verifying Login DDT Home Page")
         self.driver=setup
         self.driver.get(self.base_url)
         self.loginP= LoginPage(self.driver)
@@ -34,34 +34,34 @@ class Test_002_DDT_Login:
 
             if act_tittle==exp_tittle:
                 if self.expected=="Pass":
-                    self.logger.info("**************************** Passed ****************************")
+                    LogGeneration.msgInfoLogFile(self.logger, "Passed")
                     self.lst_status.append("Pass")
                     self.loginP.logout()
                     assert True
                 else:
                     self.driver.save_screenshot("C:\\Users\\RudyX\\PycharmProjects\\TestingProyect_begin\\NopCommerceApp_Hybrid_FW\\Screenshots\\" + "test_login_" + str(row) + ".png")
-                    self.logger.error("**************************** Failed ****************************")
+                    LogGeneration.msgErrorLogFile(self.logger, "Failed")
                     self.lst_status.append("Fail")
                     self.loginP.logout()
                     assert False
             else:
                 if self.expected=="Pass":
-                    self.logger.error("**************************** Failed ****************************")
+                    LogGeneration.msgErrorLogFile(self.logger, "Failed")
                     self.lst_status.append("Fail")
                     assert False
                 else:
                     self.lst_status.append("Pass")
                     self.driver.save_screenshot("C:\\Users\\RudyX\\PycharmProjects\\TestingProyect_begin\\NopCommerceApp_Hybrid_FW\\Screenshots\\" + "test_login_" + str(row) + ".png")
-                    self.logger.info("**************************** Passed ****************************")
+                    LogGeneration.msgInfoLogFile(self.logger, "Passed")
                     assert True
 
         if "Fail" not in self.lst_status:
-            self.logger.info("***** Login DDT Passed *****")
+            LogGeneration.msgInfoLogFile(self.logger, "Login DDT Passed")
         else:
-            self.logger.info("***** Login DDT Failed *****")
+            LogGeneration.msgInfoLogFile(self.logger, "Login DDT Failed")
 
-        self.logger.info("****** END of Login DDT ******")
-        self.logger.info("****** Completed Test_002_DDT_Login ******")
+        LogGeneration.msgInfoLogFile(self.logger, "END of Login DDT")
+        LogGeneration.msgInfoLogFile(self.logger, "Completed Test_002_DDT_Login")
 
         self.driver.close()
 

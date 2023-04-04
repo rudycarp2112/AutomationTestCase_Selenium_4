@@ -20,7 +20,7 @@ class Test_003_AddCustomer:
 
     @pytest.mark.sanity
     def test_addCustomer(self,setup):
-        self.logger.info("************ Test_003_AddCustomer ************")
+        LogGeneration.msgInfoLogFile(self.logger, "Test_003_AddCustomer")
         self.driver = setup
         self.driver.get(self.baseUrl)
         time.sleep(2)
@@ -29,17 +29,17 @@ class Test_003_AddCustomer:
         self.lp.setUserName(self.usermail)
         self.lp.setPassword(self.userpwd)
         self.lp.login()
-        self.logger.info("************ Loggin Succesful ************")
+        LogGeneration.msgInfoLogFile(self.logger, "Loggin Succesful")
 
-        self.logger.info("************ Test_003_AddCustomer ************")
+        LogGeneration.msgInfoLogFile(self.logger, "Begin Test_003_AddCustomer")
         self.ac = AddCustomer(self.driver)
         self.ac.clickOnCustomerMenu()
         self.ac.clickOnOptionCustomer()
         time.sleep(1) # neccesary to pass this TC in Firefox browser
         self.ac.clickOnAddCustomer()
 
-        self.logger.info("************ screen location 'Add customer' Succesful ************")
-        self.logger.info("************ Starting Add Customer ***********")
+        LogGeneration.msgInfoLogFile(self.logger, "screen location 'Add customer' Succesful")
+        LogGeneration.msgInfoLogFile(self.logger, "Starting Add Customer")
 
         time.sleep(2) # neccesary to pass this TC in Firefox browser
         self.email = random_generator_char() + "@gmail.com"
@@ -58,21 +58,21 @@ class Test_003_AddCustomer:
 
         self.ac.clickOnSave()
 
-        self.logger.info("************ Saving Customer info ***********")
-        self.logger.info("************ Add Customer validation started ***********")
+        LogGeneration.msgInfoLogFile(self.logger, "Saving Customer info")
+        LogGeneration.msgInfoLogFile(self.logger, "Add Customer validation started")
 
         self.msg = self.driver.find_element(By.TAG_NAME,"body").text
 
         if "The new customer has been added successfully." in self.msg:
             assert True == True
-            self.logger.info("*************** Add customer test Passed ***************")
+            LogGeneration.msgInfoLogFile(self.logger, "Add customer test: Passed")
         else:
             self.driver.save_screenshot("C:\\Users\\RudyX\\PycharmProjects\\TestingProyect_begin\\NopCommerceApp_Hybrid_FW\\Screenshots\\"+"add_customer_src.png")
-            self.logger.info("*************** Add customer test Failed ***************")
+            LogGeneration.msgErrorLogFile(self.logger, "Add customer test: Failed")
             assert True == False
 
         self.driver.close()
-        self.logger.info("*************** Ending Test_003_AddCustomer TC ***************")
+        LogGeneration.msgInfoLogFile(self.logger, "Ending Test_003_AddCustomer TC")
 
 
 

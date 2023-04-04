@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8"/>
-    <title>reportFirefox.html</title>
+    <title>Automation Report NopCommerce App</title>
     <link href="assets/style.css" rel="stylesheet" type="text/css"/></head>
   <body onLoad="init()">
     <script>/* This Source Code Form is subject to the terms of the Mozilla Public
@@ -252,8 +252,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
     notFoundMessage.hidden = !allRowsHidden;
 }
 </script>
-    <h1>reportFirefox.html</h1>
-    <p>Report generated on 02-Apr-2023 at 10:07:21 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <h1>Automation Report NopCommerce App</h1>
+    <p>Report generated on 04-Apr-2023 at 10:41:44 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -273,10 +273,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>3.9.13</td></tr>
       <tr>
         <td>Tester</td>
-        <td>Franco Rudy</td></tr></table>
+        <td>Franco Rudy</td></tr>
+      <tr>
+        <td>foo</td>
+        <td>bar</td></tr></table>
     <h2>Summary</h2>
-    <p>2 tests ran in 30.63 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>1 tests ran in 23.02 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -291,17 +294,16 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_addCustomer.py::Test_003_AddCustomer::test_addCustomer</td>
-          <td class="col-duration">23.22</td>
+          <td class="col-duration">23.00</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_login.py::Test_001_Login::test_login</td>
-          <td class="col-duration">7.18</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     root:customLogger.py:19 ************************ Test_003_AddCustomer ************************
+INFO     root:customLogger.py:19 ************************ Loggin Succesful ************************
+INFO     root:customLogger.py:19 ************************ Begin Test_003_AddCustomer ************************
+INFO     root:customLogger.py:19 ************************ screen location &#x27;Add customer&#x27; Succesful ************************
+INFO     root:customLogger.py:19 ************************ Starting Add Customer ************************
+INFO     root:customLogger.py:19 ************************ Saving Customer info ************************
+INFO     root:customLogger.py:19 ************************ Add Customer validation started ************************
+INFO     root:customLogger.py:19 ************************ Add customer test: Passed ************************
+INFO     root:customLogger.py:19 ************************ Ending Test_003_AddCustomer TC ************************<br/></div></td></tr></tbody></table></body></html>
